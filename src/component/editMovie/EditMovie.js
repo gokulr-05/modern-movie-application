@@ -59,15 +59,6 @@ const EditMovie = ({ editObj, movieData, getData }) => {
         trailer: trailer1.current.value,
       };
 
-      //   let findedObj = tempMovieData.find((val, ind, arr) => {
-      //     return val.id === editObj.id;
-      //   });
-
-      //   findedObj.name = obj.name;
-      //   findedObj.poster = obj.poster;
-      //   findedObj.rating = obj.rating;
-      //   findedObj.summary = obj.summary;
-
       try {
         puttingData(obj);
       } catch (err) {

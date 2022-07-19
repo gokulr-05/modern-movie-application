@@ -8,6 +8,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import MovieDetails from "./component/movieDetails/MovieDetails";
 import Header1 from "./component/header1/Header1";
 import EditMovie from "./component/editMovie/EditMovie";
+import MovieFormCopy from "./MovieFormCopy";
 
 const App = () => {
   let [editObj, setEditObj] = useState({});
@@ -51,7 +52,7 @@ const App = () => {
 
           <Route
             path="/addMovie"
-            element={<MovieForm setMovieData={setMovieData} />}
+            element={<MovieFormCopy setMovieData={setMovieData} />}
           />
 
           <Route

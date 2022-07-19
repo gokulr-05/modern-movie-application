@@ -127,7 +127,7 @@ const Item = ({
 
         <Link to="/editMovie">
           <i
-            class="fa-solid fa-pen-to-square fs-4"
+            className="fa-solid fa-pen-to-square fs-4"
             onClick={() => {
               editHandler();
             }}
